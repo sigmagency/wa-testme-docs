@@ -18,8 +18,8 @@ const config = {
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: "facebook", // Usually your GitHub org/user name.
-	projectName: "docusaurus", // Usually your repo name.
+	organizationName: "sigmagency", // Usually your GitHub org/user name.
+	projectName: "wa-testme-docs", // Usually your repo name.
 
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -76,7 +76,6 @@ const config = {
 						position: "left",
 						label: "Tutorial",
 					},
-					{ to: "/blog", label: "Blog", position: "left" },
 				],
 			},
 			footer: {
@@ -87,33 +86,7 @@ const config = {
 						items: [
 							{
 								label: "Tutorial",
-								to: "/docs/intro",
-							},
-						],
-					},
-					{
-						title: "Community",
-						items: [
-							{
-								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/docusaurus",
-							},
-							{
-								label: "Discord",
-								href: "https://discordapp.com/invite/docusaurus",
-							},
-							{
-								label: "Twitter",
-								href: "https://twitter.com/docusaurus",
-							},
-						],
-					},
-					{
-						title: "More",
-						items: [
-							{
-								label: "Blog",
-								to: "/blog",
+								to: "/docs/introduction",
 							},
 						],
 					},
